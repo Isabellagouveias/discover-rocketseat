@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" class="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevLinks</title>
+    <title>Vitória Castelo</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,35 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="assets/instagram-icon.png" />
   </head>
   <body>
     <div id="container">
       <div id="profile">
-        <img
-          src="assets/avatar.png"
-          alt="Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
-        />
-        <p>@maykbrito</p>
+        <img class="avatar" src="assets/vivi.png" alt="Foto de Vivi Castelo" />
+        <p>@vih_castelo</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
       </div>
       <ul>
         <li>
-          <a href="#">Inscreva-se no NLW</a>
-        </li>
-        <li>
-          <a href="#">Baixar meu e-book</a>
-        </li>
-        <li>
-          <a href="#">Ver meu portfólio</a>
-        </li>
-        <li>
-          <a href="#">Conheça o explorer</a>
+          <a href="mailto:vitoriacastelobranco01@gmail.com">E-mail</a>
         </li>
       </ul>
       <div id="social-links">
-        <ion-icon name="logo-github"></ion-icon>
-        <ion-icon name="logo-instagram"></ion-icon>
-        <ion-icon name="logo-youtube"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <a href="https://wa.me/556284303379?text=Oi+%3A%29" target="_blank"
+        >     <ion-icon name="logo-whatsapp" alt="Logo do Whatsapp"></ion-icon></a
+      >
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61552215971006&locale=pt_BR"
+          target="_blank"
+        >
+          <ion-icon name="logo-facebook" alt="Logo do Facebook"></ion-icon>
+        </a>
+        <a
+          href="https://www.tiktok.com/@vih_castello?lang=pt-BR"
+          target="_blank"
+        >
+          <ion-icon name="logo-tiktok" alt="Logo do Tiktok"></ion-icon>
+        </a>
       </div>
     </div>
     <script
@@ -50,5 +55,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
